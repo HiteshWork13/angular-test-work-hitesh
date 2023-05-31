@@ -1,0 +1,372 @@
+{
+  "chartData": [
+    {
+      "id": "chartLine",
+      "type": "line",
+      "title": "Line Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "label": "Product A",
+            "backgroundColor": "#6dbbe070",
+            "borderColor": "#02a9f7",
+            "data": [
+              0,
+              30,
+              55,
+              41,
+              45,
+              7,
+              8,
+              41,
+              12,
+              14,
+              25,
+              56
+            ],
+            "fill": true
+          },
+          {
+            "label": "Product B",
+            "backgroundColor": "#7a0238a8",
+            "borderColor": "#f01679d6",
+            "data": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              14,
+              15
+            ],
+            "fill": true
+          }
+        ],
+        "labels": [
+          "JAN",
+          "FEB",
+          "MAR",
+          "APR",
+          "MAY",
+          "JUNE",
+          "JULY"
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2,
+        "responsive": true,
+        "maintainAspectRatio": true,
+        "layout": {
+          "padding": {
+            "top": 20,
+            "right": 20,
+            "left": 20,
+            "bottom": 0
+          }
+        },
+        "title": {
+          "display": true,
+          "text": ""
+        },
+        "tooltips": {
+          "mode": "index",
+          "intersect": false
+        },
+        "hover": {
+          "mode": "nearest",
+          "intersect": true
+        },
+        "legend": {
+          "display": false,
+          "position": ""
+        },
+        "scales": {
+          "yAxes": [
+            {
+              "ticks": {
+                "display": false
+              },
+              "gridLines": {
+                "display": false
+              }
+            }
+          ],
+          "xAxes": [
+            {
+              "ticks": {
+                "display": true
+              },
+              "gridLines": {
+                "display": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chartBar",
+      "type": "bar",
+      "title": "Bar Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "label": "Sales",
+            "data": [
+              "467",
+              "576",
+              "572",
+              "79",
+              "92",
+              "574",
+              "573",
+              "576"
+            ],
+            "backgroundColor": "#ff000063"
+          },
+          {
+            "label": "Profit",
+            "data": [
+              "542",
+              "542",
+              "536",
+              "327",
+              "17",
+              "0.00",
+              "538",
+              "541"
+            ],
+            "backgroundColor": "#72b2e0"
+          }
+        ],
+        "labels": [
+          "USA",
+          "London",
+          "India",
+          "Sydney",
+          "Japan",
+          "China",
+          "Canada",
+          "UAE"
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2
+      }
+    },
+    {
+      "id": "chartPie",
+      "type": "pie",
+      "title": "Pie Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "data": [
+              10,
+              20,
+              30
+            ],
+            "backgroundColor": [
+              "#941751de",
+              "#1b6f84de",
+              "#bdcd6bde"
+            ]
+          }
+        ],
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2
+      }
+    },
+    {
+      "id": "chartDnt",
+      "type": "doughnut",
+      "title": "Doughnut Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "data": [
+              10,
+              20,
+              30
+            ],
+            "backgroundColor": [
+              "#941751de",
+              "#1b6f84de",
+              "#bdcd6bde"
+            ]
+          }
+        ],
+        "labels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2
+      }
+    },
+    {
+      "id": "chartRadar",
+      "type": "radar",
+      "title": "Radar Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "label": "Product A",
+            "data": [
+              0.1,
+              2.112,
+              0,
+              1.12342,
+              1.9123,
+              2.1233,
+              2.123425
+            ],
+            "backgroundColor": "rgba(166,214,249,0.3)",
+            "borderColor": "red",
+            "pointBackgroundColor": "#fff"
+          },
+          {
+            "label": "Product B",
+            "data": [
+              0.5,
+              1.1,
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            "backgroundColor": "rgba(255,209,137,0.3)",
+            "borderColor": "blue",
+            "pointBackgroundColor": "#fff"
+          }
+        ],
+        "labels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2
+      }
+    },
+    {
+      "id": "chartPolar",
+      "type": "polarArea",
+      "title": "Polar Area Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "label": "Product A",
+            "data": [
+              0.1,
+              2.112,
+              0,
+              1.12342,
+              1.9123,
+              2.1233,
+              2.123425
+            ],
+            "backgroundColor": "#ff000063",
+            "borderColor": "#ff000063"
+          },
+          {
+            "label": "Product B",
+            "data": [
+              0.5,
+              1.1,
+              4,
+              3,
+              0,
+              0,
+              0
+            ],
+            "backgroundColor": "#72b2e0",
+            "borderColor": "#72b2e0"
+          }
+        ]
+      },
+      "chart_options": {
+        "aspectRatio": 2
+      }
+    },
+    {
+      "id": "chartBubble",
+      "type": "bubble",
+      "title": "Bubble Chart",
+      "chart_data": {
+        "datasets": [
+          {
+            "data": [
+              {
+                "x": 10,
+                "y": 10,
+                "r": 10
+              },
+              {
+                "x": 15,
+                "y": 3,
+                "r": 15
+              },
+              {
+                "x": 26,
+                "y": 12,
+                "r": 23
+              },
+              {
+                "x": 7,
+                "y": 8,
+                "r": 8
+              }
+            ],
+            "label": "Series A",
+            "backgroundColor": "#ff000063",
+            "borderColor": "#ff000063"
+          },
+          {
+            "data": [
+              {
+                "x": 8,
+                "y": 7,
+                "r": 5
+              },
+              {
+                "x": 15,
+                "y": 5,
+                "r": 15
+              },
+              {
+                "x": 5,
+                "y": 15,
+                "r": 15
+              },
+              {
+                "x": 7,
+                "y": 8,
+                "r": 8
+              }
+            ],
+            "label": "Series B",
+            "backgroundColor": "#72b2e0",
+            "borderColor": "#72b2e0"
+          }
+        ]
+      },
+      "chart_options": {}
+    }
+  ]
+}

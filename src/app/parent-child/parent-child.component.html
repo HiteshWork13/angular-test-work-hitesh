@@ -1,0 +1,10 @@
+<h1>Parent Component</h1>
+<ul>
+  <li *ngFor="let item of data">{{item.name}}
+
+  </li>
+</ul>
+
+<button (click)="createNew()">Create new</button>
+
+<app-child [data]="data$"></app-child>

@@ -1,0 +1,4 @@
+<div *ngFor="let item of data | async">
+  <input type="text" [(ngModel)]="item.name" (input)="changeDataInParent(item)" />
+  {{item?.description}}
+</div>
